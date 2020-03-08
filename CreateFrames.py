@@ -143,6 +143,11 @@ def create_images(df, config=None):
 
     # fig.savefig needs the directory already created
     try:
+        os.mkdir('frames')
+    except:
+        pass
+
+    try:
         os.mkdir(config['frames_dir'])
     except:
         pass
