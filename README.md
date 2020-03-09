@@ -2,7 +2,7 @@
 
 Inspired by a Ferry Djaja's [blog post on the SAP Community](https://blogs.sap.com/2020/03/05/tracking-coronavirus-covid-19-near-real-time-with-sap-hana-xsa/) I created a Python based solution.
 
-The script uses the same data bases from the [Johns Hokins CSSE](https://github.com/CSSEGISandData/COVID-19). My visualization is based on the time series data.
+The script uses the same data bases from the [Johns Hopkins CSSE](https://github.com/CSSEGISandData/COVID-19). My visualization is based on the time series data.
 
 > Lesson learned: I first started with the daily reports and was already finished with the web scraper. Then I realized, that the first records don't have geo data in :-(
 > Mental Note: Check your data first, then start coding
